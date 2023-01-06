@@ -1,0 +1,73 @@
+body {
+  background-color: #000041;
+  font-family: "Inter", sans-serif;
+}
+.card {
+  border-radius: 7px;
+  width: 50%;
+  height: fit-content;
+  margin: 50px auto;
+  background-color: #c7c7c7;
+  display: flex;
+  padding: 10px;
+}
+.left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  background-color: #c7c7c7;
+  padding: 15px 0;
+}
+.left a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  align-self: flex-end;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  width: 80px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+  background-color: #000041;
+  margin: 8px 0;
+}
+.left img {
+  width: 100%;
+}
+.right {
+  width: 50%;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.right .logo img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.right input {
+  margin: 0 auto;
+  width: 70%;
+  border: none;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+.right p {
+  font-size: 14px;
+}
+.right a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  width: 80px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #000041;
+}
